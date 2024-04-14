@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/msg"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="item"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:showAsAction="never"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:showAsAction="never"
+        />
+    <item
+        android:id="@+id/groupchat"
+        android:title="Group Chat"
+        android:showAsAction="never"
+        />
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/report"
+                android:title="Report"
+                />
+            <item
+                android:id="@+id/clearchat"
+                android:title="Clear chat"
+                />
+        </menu>
+    </item>
+
+</menu>
